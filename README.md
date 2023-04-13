@@ -36,11 +36,11 @@ CREATE TABLE "temperature_humidity_sensor" (
   "humidity" DECIMAL NOT NULL
 )
 ```
-id - autoinc Value
-date - ISO 8601 Date Time (without Milliseconds and with Timezone)
-sensor_id - self random Value on HomeKit Side (can be named Entity or random String)
-temperature - Sensor Data in Celsius
-humidity - Sensor Data in Relative
+- `id` - autoinc Value
+- `date` - ISO 8601 Date Time (without Milliseconds and with Timezone)
+- `sensor_id` - self random Value on HomeKit Side (can be named Entity or random String)
+- `temperature` - Sensor Data in Celsius
+- `humidity` - Sensor Data in Relative
 
 
 ## HTTP Server PostgREST
