@@ -1,20 +1,29 @@
 # HomeKit Temperature Sensor
 Get and store HomeKit Data (e.g. Aqara Temperature and Humidity Sensor WSDCGQ11LM) in SQL Database and visualize on Grafana
 
-What need:
+## What need:
 - Aqara Sensors
 - Apple HomeKit supported Device (AppleTV/HomePod/iPad(maybe))
 - Homebridge (Homebridge Advanced Timer Plugin)
 - PostgreSQL Server
 - PostgREST
-- Grafana
+- Grafana (if need Charts)
+
+## Algorithm Steps
+1. Homebridge triggers Timer each n Seconds
+2. HomeKit Automation reacts and run Script Shortcut
+3. Sctipt Shortcut get Sensor Data and make HTTP Post Request on PostgREST Server
+4. PostgREST Server performs Request and make Insertion Query
+
+General Schema
+![Schema](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/photo_2023-04-13_15-08-52.jpg)
 
 ## Homebridge
 Install Advanced Timer Plugin and setting for example at 1 Minute 
 
 ## HomeKit
 Create Automation trigers of Time State changing
-
+![HomeKit](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/photo_2023-04-13_15-08-49.jpg)
 
 ## Table in PostgreSQL
 ```sql
