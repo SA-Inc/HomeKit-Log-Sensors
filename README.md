@@ -70,3 +70,10 @@ ExecReload=/bin/kill -SIGUSR1 $MAINPID
 [Install]
 WantedBy=multi-user.target
 ```
+
+```
+sudo systemctl daemon-reload
+sudo systemctl enable postgrest.service
+sudo systemctl start postgrest.service
+sudo systemctl status postgrest.service
+```
