@@ -27,6 +27,7 @@ Install Advanced Timer Plugin and setting for example at 1 Minute
 
 ## HomeKit
 Create Automation trigers of Time State changing
+![HomeKit](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/photo_2023-04-17_00-54-59.jpg)
 ![HomeKit](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/photo_2023-04-13_15-08-49.jpg)
 ![HomeKit](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/photo_2023-04-13_15-28-08.jpg)
 
