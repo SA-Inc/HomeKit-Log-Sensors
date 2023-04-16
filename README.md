@@ -1,6 +1,8 @@
 # HomeKit Temperature Sensor
 Get and store HomeKit Data (e.g. Aqara Temperature and Humidity Sensor WSDCGQ11LM) in SQL Database and visualize on Grafana
 
+![Room Temperature](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/Screenshot%202023-04-17%20004610.png)
+
 ## What need:
 - Aqara Sensors
 - Apple HomeKit supported Device (AppleTV/HomePod/iPad(maybe))
