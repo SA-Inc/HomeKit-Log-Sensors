@@ -5,6 +5,9 @@ The color Range from Blue to Purple indicates the Percentage of cool to warm Tem
 
 ![Room Temperature](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/Screenshot%202023-04-17%20004610.png)
 
+Temperature and Humidity Charts and big Numbers
+![Room Measurments](https://github.com/SA-Inc/HomeKit-Temperature-Sensor/blob/main/Screenshot%202023-04-17%20010223.png)
+
 ## What need:
 - Aqara Sensors
 - Apple HomeKit supported Device (AppleTV/HomePod/iPad(maybe))
