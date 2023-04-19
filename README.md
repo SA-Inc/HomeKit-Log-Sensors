@@ -67,7 +67,7 @@ Description=REST API for PostgreSQL database IoT
 After=postgresql.service
 
 [Service]
-ExecStart=/usr/local/bin/postgrest /etc/postgrest/temperature_humidity_sensor_api_postgres.conf
+ExecStart=/usr/local/bin/postgrest /etc/postgrest/iot.conf
 ExecReload=/bin/kill -SIGUSR1 $MAINPID
 
 [Install]
