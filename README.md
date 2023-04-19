@@ -1,4 +1,4 @@
-# HomeKit Temperature Sensor
+# HomeKit Log Sensors
 Get and store HomeKit Data (e.g. Aqara Temperature and Humidity Sensor WSDCGQ11LM) in SQL Database and visualize on Grafana
 
 The color Range from Blue to Purple indicates the Percentage of cool to warm Temperatures. Gray Line - Moving average Filter (to eliminate Outliers).
